@@ -1,0 +1,8 @@
+function [ ] = compressToPercentFilesize( pathToFile , percent )
+dim = sizex(double(imread(pathToFile));
+m = dim(1);
+n = dim(2);
+k = (percent*(m*n))/(1+m+n)
+rankNApproximation( pathToFile, k)
+end
+
